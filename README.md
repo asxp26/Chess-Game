@@ -4,7 +4,7 @@ This Chess Game is a command-line application developed in Java that provides an
 
 ## How to Play
 
-1. Clone the repository and navigate to the project directory
+1. Clone the repository and navigate to the project directory.
 2. Compile the Java source file: `javac ChessGame.java`.
 3. Run the application: `java ChessGame`.
 4. Follow the prompts to input your moves using algebraic notation (e.g., a2 to a4).
