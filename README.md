@@ -21,3 +21,7 @@ This Chess Game is a command-line application developed in Java that provides an
 - Modularity and encapsulation: Object-oriented design for easy maintenance and future enhancements.
 
 Feel free to contribute, report issues, or suggest improvements. Enjoy playing chess!
+
+## License
+
+This project is licensed under the MIT License.
