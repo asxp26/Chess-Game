@@ -1,21 +1,23 @@
-# Project Description
+# Chess Game
 
-Implementation of a chess game in Java. It allows two players to take turns making moves on the chessboard. 
+This Chess Game is a command-line application developed in Java that provides an interactive platform for playing chess matches. The game allows two players to take turns and make moves on the chessboard, adhering to the rules and movement patterns of each chess piece. The application features a user-friendly interface with prompts for inputting moves and displaying the current state of the game.
 
-----------------------------------------------------------------------------------------------------------------------------------------
+## How to Play
 
-Here's a breakdown of the code:
+1. Clone the repository and navigate to the project directory.
+2. Compile the Java source file: `javac ChessGame.java`.
+3. Run the application: `java ChessGame`.
+4. Follow the prompts to input your moves using algebraic notation (e.g., a2 to a4).
+5. Capture the opponent's pieces strategically and earn points based on the captured pieces.
+6. The game ends when one player reaches a score of 10 points.
+7. The winner is declared, and the final scores are displayed.
 
-- The ChessGame class contains the main method, where the game is initialized and played.
-- The chessboard is represented by a 2D array of characters called board. The board is an 8x8 grid, and each cell represents a position on the board. Empty cells are represented by the null character ('\0').
-- The whitePoints and blackPoints variables keep track of the points accumulated by each player.
-- The main method initializes the board, prints the initial state of the board, and starts a loop that continues until the game is over.
-- Inside the loop, it prompts the current player for their move by asking for the source position (where the piece is) and the destination position (where the piece will be moved).
-- The movePiece method is called to validate and execute the move. If the move is valid, the piece is moved, and the points are updated based on the captured piece. The board is then printed again.
-- After each move, it checks if either player has accumulated 10 or more points. If so, it prints the final scores and ends the game.
-- The initializeBoard method sets up the initial configuration of the chessboard by placing the pieces in their starting positions.
-- The printBoard method displays the current state of the board on the console.
-- The isValidMove method checks if a move is valid based on the rules of chess. It considers factors like the type of piece, the source, and destination positions, and whether it's the player's turn.
-- The updatePoints method updates the points based on the captured piece. Each piece type has a different point value.
+## Features
 
-----------------------------------------------------------------------------------------------------------------------------------------
+- Two-player functionality: Play chess matches against a friend.
+- Error handling: Invalid moves are detected, and appropriate error messages are displayed.
+- Point-based scoring: Players earn points based on the captured pieces.
+- Interactive interface: Display of the chessboard and current game state after each move.
+- Modularity and encapsulation: Object-oriented design for easy maintenance and future enhancements.
+
+Feel free to contribute, report issues, or suggest improvements. Enjoy playing chess!
