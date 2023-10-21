@@ -2,23 +2,35 @@
 
 This Chess Game is a command-line application developed in Java that provides an interactive platform for playing chess matches. The game allows two players to take turns and make moves on the chessboard, adhering to the rules and movement patterns of each chess piece. The application features a user-friendly interface with prompts for inputting moves and displaying the current state of the game.
 
+## Key Features
+
+- Full chessboard representation using a two-dimensional array.
+- Distinct Java classes for each chess piece type (Pawn, Rook, Knight, Bishop, Queen, King).
+- Move validation rules to enforce legal chess moves.
+- Player switching to alternate between white and black players.
+- Support for special moves, including castling, en passant, and pawn promotion.
+- Check and checkmate detection to ensure a player's king is not in check.
+- Easily accessible on GitHub for collaboration and contribution.
+
 ## How to Play
 
-1. Clone the repository and navigate to the project directory.
-2. Compile the Java source file: `javac ChessGame.java`.
-3. Run the application: `java ChessGame`.
-4. Follow the prompts to input your moves using algebraic notation (e.g., a2 to a4).
-5. Capture the opponent's pieces strategically and earn points based on the captured pieces.
-6. The game ends when one player reaches a score of 10 points.
-7. The winner is declared, and the final scores are displayed.
+To play the Chess Game:
 
-## Features
+1. Clone this repository to your local machine.
+2. Compile and run the Java program using your preferred development environment.
+3. Follow the on-screen instructions to make moves and play chess.
+4. Enjoy a complete and challenging chess experience.
 
-- Two-player functionality: Play chess matches against a friend.
-- Error handling: Invalid moves are detected, and appropriate error messages are displayed.
-- Point-based scoring: Players earn points based on the captured pieces.
-- Interactive interface: Display of the chessboard and current game state after each move.
-- Modularity and encapsulation: Object-oriented design for easy maintenance and future enhancements.
+## Contribution Guidelines
+
+Contributions are welcome. To contribute to the Chess Game project:
+
+1. Fork this repository.
+2. Clone your forked repository to your local machine.
+3. Create a new branch for your feature or bug fix.
+4. Make your changes and commit them.
+5. Push the changes to your fork on GitHub.
+6. Open a pull request to merge your changes into the main project.
 
 Feel free to contribute, report issues, or suggest improvements. Enjoy playing chess!
 
